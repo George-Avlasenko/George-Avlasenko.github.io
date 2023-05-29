@@ -1,0 +1,50 @@
+.progressBar{
+    width: 200px;
+    height: 7px;
+
+    margin: 4px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+
+    box-sizing: border-box;
+}
+
+.progressBar div{
+    height: 100%;
+    border-radius: 10px;
+    transition: all 1.5s ease-out;
+}
+
+.bar-0{
+    width: 0%;
+}
+
+.bar-20{
+    width: 20%;
+    background-color: red;
+}
+
+.bar-40{
+    width: 40%;
+    background-color: orange;
+}
+
+.bar-60{
+    width: 60%;
+    background-color: yellow;
+}
+
+.bar-80{
+    width: 80%;
+    background-color: lightgreen;
+}
+
+.bar-100{
+    width: 100%;
+    background-color: green;
+}
+
+.bar-120{
+    width: 120%;
+    background: linear-gradient(0.25turn, #e66465, #9198e5);
+}

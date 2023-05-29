@@ -1,0 +1,140 @@
+* {
+	font-family: cursive;
+}
+
+body {
+	background-color: rgb(148, 186, 155);
+}
+
+.App {
+	margin: 10px auto;
+	padding: 20px;
+	height: max-content;
+	width: max-content;
+	margin: 10px auto 30px;
+	background-color: rgb(192, 203, 194);
+	border-radius: 20px;
+}
+
+.table {
+	margin: auto;
+}
+
+.oneProduct {
+	margin: 0 60px;
+}
+
+.product_container {
+	display: flex;
+	position: relative;
+	border-bottom: 4px solid rgba(69, 69, 69, 0.4);
+}
+
+.product_container .image {
+	display: flex;
+}
+
+.product_information {
+	margin: 0 25px;
+}
+
+.product_information h2 {
+	width: 150px;
+}
+
+.product_information>h3 span {
+	font-weight: 350;
+	color: gray;
+	text-decoration: line-through;
+}
+
+.description {
+	line-height: 1.5;
+	text-align: left;
+	display: inline-block;
+	width: 450px;
+}
+
+.newInfo,
+.saleInfo {
+	display: inline-block;
+	padding: 10px 8px;
+	margin-right: 5px;
+	border-radius: 5px;
+}
+
+.newInfo {
+	background-color: whitesmoke;
+}
+
+.saleInfo {
+	background-color: rgb(214, 13, 13);
+	color: white;
+	font-size: 20px;
+}
+
+.info {
+	margin: 5px;
+	position: absolute;
+	display: flex;
+}
+
+.info .newInfo,
+.saleInfo {
+	display: none;
+}
+
+.info.new .newInfo {
+	display: block;
+}
+
+.info.sale .saleInfo {
+	display: block;
+}
+
+.Catalog_buttons {
+	margin: 0 160px 20px;
+	display: flex;
+}
+
+.Catalog_buttons button {
+	width: 25%;
+	margin: 10px;
+	height: 45px;
+
+	border-radius: 20px;
+	border-width: 2px;
+	background-color: rgb(57, 191, 144);
+}
+
+.Catalog_buttons button:hover {
+	background-color: rgb(68, 228, 172);
+}
+
+.Catalog_buttons button:active {
+	background-color: rgb(63, 214, 161);
+}
+
+.arrow_right, .arrow_left{
+	position: absolute;
+	font-size: 60px;
+	color:rgb(69, 196, 196);
+}
+
+.arrow_left {
+	top:250px;
+	left:10px;
+}
+
+.arrow_right{
+	top:250px;
+	left:300px;
+}
+
+.arrow_left:hover, .arrow_right:hover {
+	color: rgb(68, 228, 172);
+}
+
+.arrow_left:active, .arrow_right:active {
+	color: rgb(63, 214, 161);
+}
